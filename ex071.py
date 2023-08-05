@@ -1,4 +1,4 @@
-#Caixa eletrônico
+# Caixa eletrônico
 valor_saque = int(input('Digite o valor a ser sacado: R$'))
 
 cedulas_50 = cedulas_20 = cedulas_10 = cedulas_1 = 0

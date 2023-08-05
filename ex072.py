@@ -1,4 +1,4 @@
-#Numero por extenso
+# Numero por extenso
 cores = {
     'limpa':'\033[m',
     'vermelho':'\033[31m',
