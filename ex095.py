@@ -1,8 +1,11 @@
 # melhorando programa dos jogadores
+
+# declarando algumas das variaveis
 jogadores = list()
 jogador = dict()
 gols = list()
 total = c = 0
+#primeiro loop: cadstro do jogador
 while True:
     jogador['nome'] = str(input('Nome do Jogador: '))
     jogador['partidas'] = int(input(f'Quantas partidas {jogador["nome"]} jogou: '))
@@ -19,11 +22,13 @@ while True:
     if resp in 'Nn':
         break
 print('-=' * 20)
+# Segundo loop: Exibição personalizada tabela de jogadores
 print(f'{"cod":<6}{"Nome":<10}{"Gols":<10}{"Total":<6}')
 for n in jogadores:
     print(f'{c:<6}{str(n["nome"]):<10}{str(n["gols"]):<10}{str(n["total"]):<6}')
     c += 1
 print('-=' * 20)
+# Terceiro loop: Exibição separada de dados de um determinado jogador
 while True:
     numjogador = int(input('Mostrar dados de qual jogador (999 interrompe): '))
     if numjogador == 999:
