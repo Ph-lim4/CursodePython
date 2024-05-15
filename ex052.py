@@ -21,16 +21,15 @@ cores = {
 }
 
 num = int(input('Numero: '))
-primo = bool(True)
 vezes = int(0)
 
-for c in range(1, 11):
+for c in range(1, num+1):
     if num % c != 0:
         print('{}{}{}'.format(cores['amarelo'],
                               c,
                               cores['limpa']),
               end=' ➝ ')
-        primo = False
+
 
     else:
         vezes += 1
@@ -42,7 +41,7 @@ for c in range(1, 11):
     c += c
 print('\n O numero {} foi divisivel {} vezes!'.format(num, vezes))
 
-if vezes == 1 or vezes == 2:
+if vezes == 2:
     print(' {} É Primo!'.format(num))
 else:
     print(' {} NÃO É Primo!'.format(num))

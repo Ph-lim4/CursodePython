@@ -22,7 +22,7 @@ cores = {
 }
 
 vel = int(input('Velocidade: '))
-if vel <=80:
+if vel <= 80:
     print('Dentro da Velocidade: ')
 else:
     print('Passou da Velocidade!!!')

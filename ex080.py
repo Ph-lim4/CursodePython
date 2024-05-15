@@ -1,4 +1,4 @@
-# Colocando numeros em uma lista, em ordem, sem o metodo sort
+# Colocando numeros em uma lista, em ordem, sem o metodo sort, percorrendo cada valor da lista
 lista = []
 for cont in range(0, 5):
     num = int(input('Digite um número: '))
@@ -7,6 +7,7 @@ for cont in range(0, 5):
         lista.append(num)
         print('Maior numero, adicionado na posição final')
     else:
+        # percorrendo a lista, testando se cada o numero digitado é menor que cada valor
         pos = 0
         while pos < len(lista):
             if num <= lista[pos]:

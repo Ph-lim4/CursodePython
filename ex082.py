@@ -8,7 +8,7 @@ while True:
     resp = input('Deseja continuar: (S/N): ')
     if resp in 'Nn':
         break
-for p, n in enumerate(lista):
+for n in lista:
     if n % 2 == 0:
         pares.append(n)
     else:

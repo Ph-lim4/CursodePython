@@ -9,4 +9,3 @@ for n in range(1, 501, 2):
         soma = soma + n
 
 print("Numeros", cont,"Soma", soma)
-

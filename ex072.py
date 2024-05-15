@@ -1,4 +1,4 @@
-# Numero por extenso
+# Numero por extenso (Começo do mundo 03, Tuplas)
 cores = {
     'limpa':'\033[m',
     'vermelho':'\033[31m',
@@ -20,11 +20,10 @@ cores = {
 }
 
 cont = ('zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez',
-        'Onze', 'Doze', 'Treze', 'Catorze', 'Quize', 'Dezesseis', 'Dezesete', 'Dezoito', 'Dezenove', 'Vinte')
+        'Onze', 'Doze', 'Treze', 'Catorze', 'Quize', 'Dezesseis', 'Dezessete', 'Dezoito', 'Dezenove', 'Vinte')
 while True:
     num = int(input('Digite um numero entre 0 e 20: '))
-    extenso = ''
-    if (num >= 0) and num <= 20:
+    if (num >= 0) and (num <= 20):
         print(f"Você digitou o número {cores['bordaverde']} {cont[num]} {cores['limpa']}")
         resp = input('Deseja continuar? (S/N) ')
         if resp in 'Nn':

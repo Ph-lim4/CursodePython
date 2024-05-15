@@ -1,4 +1,4 @@
-# Mega Sena
+# Sorteador numeros da Mega Sena
 from random import randint
 from time import sleep
 jogos = []
