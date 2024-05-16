@@ -1,3 +1,5 @@
+# Repeticão do exercicio para me testar
+
 # Jogadores
 jogadores = list()
 jogador = dict()
