@@ -1,7 +1,7 @@
 # Texto adaptavel
 
 def adaptavel(text):
-    print(f'~' * (len(text)+4))
+    print(f'~' * (len(text) + 4))
     print(' ', text)
     print(f'~' * (len(text) + 4))
 

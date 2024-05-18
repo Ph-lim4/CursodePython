@@ -20,5 +20,5 @@ def fatorial(num, show=False):
     return fat
 
 
-#print(fatorial(6, show=True))
+print(fatorial(9, show=True))
 help(fatorial)

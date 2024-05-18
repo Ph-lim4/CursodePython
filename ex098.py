@@ -1,4 +1,4 @@
-# Contador
+# Contador personalizado
 from time import sleep
 
 
@@ -18,6 +18,7 @@ print('Agora é sua vez: ')
 i = int(input('Inicio: '))
 while True:
     fb = int(input('Final: '))
+    # como o python ignora o ultimo numero do range, incremente um extra:
     if i > fb:
         f = fb - 1
         break
@@ -27,7 +28,9 @@ while True:
     else:
         print('Inicio e final são iguais, tente novamente...')
 pb = int(input('Intervalo: '))
-if i > fb:
+if pb == 0:
+    p = 1
+elif i > fb:
     p = pb - (pb * 2)
 else:
     p = pb
